@@ -298,7 +298,7 @@ def test_core_discovers_loads_and_wraps_installed_plugin(tmp_path: Path) -> None
         ),
         PluginLock(
             plugins=[
-                PluginLockEntry(id="dh-core", version="0.4.0", source="builtin"),
+                PluginLockEntry(id="dh-core", version="0.5.0", source="builtin"),
                 PluginLockEntry(id="dh-prometheus", version="0.1.0", source="python"),
             ]
         ),
